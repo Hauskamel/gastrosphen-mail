@@ -14,7 +14,7 @@
 <body>
 
 
-<form class="container">
+<form class="container" action="contact-form-process.php">
     <div class="contact-form__wrapper row">
         <div class="contact-form__hl col-12">
             <h1 class="contact-form__hl--xl col-12">Welcome to the Team!</h1>
@@ -33,7 +33,7 @@
 
         <div class="contact-form__fields d-flex col-12">
             <div class="contact-form__fields--hl col-6">Nachname // Last Name</div>
-            <input class="contact-form__fields--input col-6" name="sir-name" type="text" required>
+            <input class="contact-form__fields--input col-6" name="sirname" type="text" required>
         </div>
 
         <div class="contact-form__fields d-flex col-12">
@@ -43,7 +43,7 @@
 
         <div class="contact-form__fields d-flex col-12">
             <div class="contact-form__fields--hl col-6">E-Mail // Email</div>
-            <input class="contact-form__fields--input col-6" name="e-mail" type="text" required>
+            <input class="contact-form__fields--input col-6" name="email" type="text" required>
         </div>
 
         <div class="contact-form__fields d-flex col-12">
@@ -62,9 +62,8 @@
 
     </div>
 
-    <button class="send-btn">
-        Senden
-    </button>
+    <button class="send-btn" type="submit">Senden</button>
+
 </form>
 
 
